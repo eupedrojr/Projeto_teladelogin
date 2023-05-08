@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap');
+ .conteiner
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    padding-inline-end: 20%;
+  }
+  
+  input[type="email"], 
+  input[type="password"] {
+    background: #F4F4F4;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #2A88C8;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0072C6;
+  }
+
+  .lock-icon {
+    color: #000; /* muda a cor para preto */
+    filter: grayscale(100%); /* adiciona filtro de escala de cinza de 100% */
+  }
